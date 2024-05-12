@@ -14,6 +14,10 @@ font-family: "Playfair Display", serif;
 font-family: "Kaushan Script", cursive;
 font-family: "Source Sans 3", sans-serif; */
 
+body {
+    background-color: aqua;
+}
+
 /* header */
 .header-link {
 color: var(--additional-accent);
@@ -88,3 +92,75 @@ line-height: 1.25;
 text-transform: uppercase;
 }
 
+/* каталог */
+
+.catalog-text {
+color: var(--accent-color);
+font-family: "Playfair Display", serif;
+font-size: 36px;
+font-weight: 600;
+line-height: 1.33;
+}
+
+.catalog-title {
+    color: var(--text-color);
+
+text-align: center;
+font-family: "Playfair Display", serif;
+font-size: 36px;
+font-weight: 600;
+line-height: 1.33;
+}
+
+.catalog-desc {
+    color: var(--text-color);
+ font-family: "Source Sans 3", sans-serif;
+font-size: 18px;
+font-weight: 300;
+line-height: 1.27;
+}
+
+.catalog-caption {
+    color: var(--text-color);
+text-align: center;
+font-family: "Playfair Display", serif;
+font-size: 36px;
+font-weight: 600;
+line-height: 1.33;
+}
+
+.caption-desk {
+    color: var(--text-color);
+ font-family: "Source Sans 3", sans-serif;
+font-size: 15px;
+font-weight: 600;
+line-height: 1.26;
+letter-spacing: 0.75px;
+text-transform: uppercase;
+}
+
+.caption-subtitle {
+    color: var(--background-color);
+    font-family: "Source Sans 3", sans-serif;
+font-size: 34px;
+font-weight: 300;
+line-height: 1.17;
+}
+
+.caption-slogan {
+    color: var(--background-color);
+    font-family: "Source Sans 3", sans-serif;
+font-size: 16px;
+font-weight: 300;
+line-height: 1.25;
+}
+
+.catalog-btn {
+    color: var(--text-color);
+    font-family: "Source Sans 3", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.25; 
+letter-spacing: 1.6px;
+text-transform: uppercase;
+}
