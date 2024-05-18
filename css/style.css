@@ -15,7 +15,8 @@ font-family: "Kaushan Script", cursive;
 font-family: "Source Sans 3", sans-serif; */
 
 body {
-    background-color: aqua;
+    background-color: var(--background-color);
+    font-family: "Source Sans 3", sans-serif;
 }
 
 /* header */
@@ -30,7 +31,6 @@ text-transform: uppercase;
 
 .nav-link {
 color: var(--additional-accent);
-font-family: "Source Sans 3", sans-serif;
 font-size: 20px;
 font-weight: 400;
 line-height: 1.25;
@@ -68,7 +68,6 @@ line-height: 1.25;
 
 .hero-text {
 color: var(--additional-accent);
-font-family: "Source Sans 3", sans-serif;
 font-size: 24px;
 font-weight: 400;
 line-height: 1.25;
@@ -77,7 +76,6 @@ text-transform: capitalize;
 
 .hero-button {
 color: var(--additional-accent);
-font-family: "Source Sans 3", sans-serif;
 font-size: 24px;
 font-weight: 400;
 line-height: 1.25;
@@ -85,7 +83,6 @@ line-height: 1.25;
 
 .hero-description {
 color: var(--text-color);
-font-family: "Source Sans 3", sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.25;
@@ -114,7 +111,6 @@ line-height: 1.33;
 
 .catalog-desc {
     color: var(--text-color);
- font-family: "Source Sans 3", sans-serif;
 font-size: 18px;
 font-weight: 300;
 line-height: 1.27;
@@ -131,7 +127,6 @@ line-height: 1.33;
 
 .caption-desk {
     color: var(--text-color);
- font-family: "Source Sans 3", sans-serif;
 font-size: 15px;
 font-weight: 600;
 line-height: 1.26;
@@ -141,7 +136,6 @@ text-transform: uppercase;
 
 .caption-subtitle {
     color: var(--background-color);
-    font-family: "Source Sans 3", sans-serif;
 font-size: 34px;
 font-weight: 300;
 line-height: 1.17;
@@ -149,7 +143,6 @@ line-height: 1.17;
 
 .caption-slogan {
     color: var(--background-color);
-    font-family: "Source Sans 3", sans-serif;
 font-size: 16px;
 font-weight: 300;
 line-height: 1.25;
@@ -157,7 +150,6 @@ line-height: 1.25;
 
 .catalog-btn {
     color: var(--text-color);
-    font-family: "Source Sans 3", sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.25; 
@@ -174,22 +166,82 @@ line-height: 1.33;
 }
 .details-title {
     color:var(--text-color);
-    font-family: "Source Sans 3", sans-serif;
 font-size: 32px;
 font-weight: 400;
 line-height: 1.25;
 }
 .details-desk {
     color: var(--additional-accent);
-    font-family: "Source Sans 3", sans-serif;
 font-size: 20px;
 font-weight: 300;
 line-height: 1.25;
 }
 .details-span {
     color:var(--text-color);
-    font-family: "Source Sans 3", sans-serif;
 font-size: 20px;
 font-weight: 600;
 line-height: 1.25;
 }
+/* Секція форми */
+.forms {
+    background-color: var(--form-background);
+}
+.forms-title {
+    color: var(--accent-color);
+/* text-align: center; */
+font-family: "Playfair Display", serif;
+font-size: 36px;
+font-weight: 600;
+line-height: 1.33;
+}
+
+.forms-text {
+    color: var(--additional-accent);
+font-size: 32px;
+font-weight: 400;
+line-height: 1.25;
+}
+
+.forms-span {
+    color: var(--text-color);
+font-size: 32px;
+font-weight: 600;
+line-height: 1.25;
+}
+
+.form-input {
+    color: #8D8D8D;
+font-size: 20px;
+font-weight: 700;
+line-height: 1.25;
+}
+
+.form-button {
+    color: var(--text-color);
+font-size: 24px;
+font-weight: 400;
+line-height: 1.25;
+}
+
+.forms-caption {
+    color: #FFF;
+/* text-align: center; */
+font-size: 32px;
+font-weight: 400;
+line-height: 1.25;
+}
+
+.forms-desk {
+    color: rgba(255, 255, 255, 0.71);
+font-size: 20px;
+font-weight: 400;
+line-height: 1.25;
+}
+
+.forms-bold {
+    color: rgba(255, 255, 255, 0.71);
+font-size: 20px;
+font-weight: 700;
+line-height: 1.25;
+}
+
