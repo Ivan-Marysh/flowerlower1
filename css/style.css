@@ -164,3 +164,32 @@ line-height: 1.25;
 letter-spacing: 1.6px;
 text-transform: uppercase;
 }
+/* Якість в деталях  */
+.details-text {
+    color: var(--accent-color);
+    font-family: "Playfair Display", serif;
+font-size: 36px;
+font-weight: 600;
+line-height: 1.33;
+}
+.details-title {
+    color:var(--text-color);
+    font-family: "Source Sans 3", sans-serif;
+font-size: 32px;
+font-weight: 400;
+line-height: 1.25;
+}
+.details-desk {
+    color: var(--additional-accent);
+    font-family: "Source Sans 3", sans-serif;
+font-size: 20px;
+font-weight: 300;
+line-height: 1.25;
+}
+.details-span {
+    color:var(--text-color);
+    font-family: "Source Sans 3", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.25;
+}
