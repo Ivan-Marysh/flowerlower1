@@ -6,6 +6,23 @@
     --form-background: rgba(185, 106, 127, 0.7);
     --formtext-color: rgba(255, 255, 255, 0.71);
 }
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
 
 
 /* font-family: "Spline Sans", sans-serif;
