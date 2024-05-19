@@ -262,3 +262,58 @@ font-weight: 700;
 line-height: 1.25;
 }
 
+/* секція клієнти */
+
+.inviseters-title {
+    color: var(--accent-color);
+font-family: "Playfair Display", serif;
+font-size: 36px;
+font-weight: 600;
+line-height: 1.33;
+
+}
+
+/* футер */
+
+
+.footer-link {
+    color: var(--additional-accent);
+font-size: 20px;
+font-weight: 400;
+line-height: 1.25;
+font-variant: small-caps;
+}
+
+.footer-logo {
+    color: var(--additional-accent);
+text-align: center;
+font-family: "Spline Sans", sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 1.14;
+text-transform: uppercase;
+}
+
+
+.address-link {
+    color: var(--text-color);
+/* text-align: center; */
+font-size: 24px;
+font-weight: 400;
+line-height: 1.25;
+text-transform: capitalize;
+}
+
+.address-text {
+    color: var(--text-color);
+font-size: 20px;
+font-weight: 400;
+line-height: 1.25;
+}
+
+
+/* font-family: "Spline Sans", sans-serif;
+font-family: "Rubik", sans-serif;
+font-family: "Playfair Display", serif;
+font-family: "Kaushan Script", cursive;
+font-family: "Source Sans 3", sans-serif; */
