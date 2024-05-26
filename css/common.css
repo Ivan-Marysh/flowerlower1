@@ -1,0 +1,8 @@
+:root {
+    --background-color: #000;
+    --accent-color: #A93B59;
+    --additional-accent: #F5EBEB;
+    --text-color: #FFFFFF;
+    --form-background: rgba(185, 106, 127, 0.7);
+    --formtext-color: rgba(255, 255, 255, 0.71);
+}

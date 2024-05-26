@@ -1,30 +1,3 @@
-:root {
-    --background-color: #000;
-    --accent-color: #A93B59;
-    --additional-accent: #F5EBEB;
-    --text-color: #FFFFFF;
-    --form-background: rgba(185, 106, 127, 0.7);
-    --formtext-color: rgba(255, 255, 255, 0.71);
-}
-a {
-    text-decoration: none;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-h1, h2, h3, h4, p {
-    margin: 0;
-}
-
-img {
-    display: block;
-}
-
-
 /* font-family: "Spline Sans", sans-serif;
 font-family: "Rubik", sans-serif;
 font-family: "Playfair Display", serif;
@@ -34,6 +7,14 @@ font-family: "Source Sans 3", sans-serif; */
 body {
     background-color: var(--background-color);
     font-family: "Source Sans 3", sans-serif;
+}
+
+.container {
+    width: 1328px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0 auto;
+    outline: solid red;
 }
 
 /* header */
