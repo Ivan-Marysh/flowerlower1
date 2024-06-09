@@ -154,12 +154,24 @@ text-align: center;
 
 /* каталог */
 
+.catalog {
+    padding-top: 44px;
+    padding-bottom: 92px;
+}
+
 .catalog-text {
 color: var(--accent-color);
 font-family: "Playfair Display", serif;
 font-size: 36px;
 font-weight: 600;
 line-height: 1.33;
+}
+
+.catalog-box {
+    width: 1085px;
+    background-color: var(--accent-color);
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
 .catalog-title {
@@ -170,7 +182,18 @@ font-family: "Playfair Display", serif;
 font-size: 36px;
 font-weight: 600;
 line-height: 1.33;
+margin-bottom: 20px;
 }
+
+.catalog-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-item {
+    display: flex;
+}
+
 
 .catalog-desc {
     color: var(--text-color);
@@ -178,6 +201,35 @@ font-size: 18px;
 font-weight: 300;
 line-height: 1.27;
 }
+
+.catalog-button {
+    background-color: transparent;
+    border: none;
+}
+
+.catalog-item:nth-child(1) .catalog-desc {
+    margin-right: 74px;
+}
+
+.catalog-item:nth-child(2) .catalog-desc {
+    margin-right: 157px;
+}
+
+.catalog-item:nth-child(3) .catalog-desc {
+    margin-right: 70px;
+}
+
+.catalog-item:nth-child(4) .catalog-desc {
+    margin-right: 148px;
+}
+
+.catalog-item:nth-child(5) .catalog-desc {
+    margin-right: 63px;
+}
+
+/* .catalog-desc:nth-child(2) {
+    margi
+} */
 
 .catalog-caption {
     color: var(--text-color);
