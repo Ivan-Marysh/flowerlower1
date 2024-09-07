@@ -16,6 +16,11 @@ body {
     margin: 0 auto;
     outline: solid red;
 }
+/* 
+.logo-img {
+    stroke-width: 1px;
+    stroke: white;
+} */
 
 /* header */
 
@@ -207,6 +212,14 @@ line-height: 1.27;
     border: none;
 }
 
+.catalog-icon {
+    fill: #FFFFFF;
+}
+
+.catalog-icon:hover {
+    fill: #000;
+}
+
 .catalog-item:nth-child(1) .catalog-desc {
     margin-right: 74px;
 }
@@ -230,6 +243,12 @@ line-height: 1.27;
 /* .catalog-desc:nth-child(2) {
     margi
 } */
+
+.catalog-heart {
+    width: 28px;
+    height: 28px;
+    fill: #B02E51;
+}
 
 .catalog-caption {
     color: var(--text-color);
