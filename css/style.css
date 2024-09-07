@@ -195,6 +195,10 @@ margin-bottom: 20px;
 .catalog-list {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    background-color: #B96A7F;
+    padding: 22px 0 22px 0;
+    border-radius: 15px;
 }
 
 .catalog-item {
@@ -324,18 +328,33 @@ padding: 15px 30px;
 font-size: 36px;
 font-weight: 600;
 line-height: 1.33;
+margin-bottom: 171px;
+text-align: end;
 }
+
+.details-item {
+    display: flex;
+    gap: 121px;
+    align-items: center;
+}
+
+.details-item:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
 .details-title {
     color:var(--text-color);
 font-size: 32px;
 font-weight: 400;
 line-height: 1.25;
+margin-bottom: 16px;
 }
 .details-desk {
     color: var(--additional-accent);
 font-size: 20px;
 font-weight: 300;
 line-height: 1.25;
+width: 527px;
 }
 .details-span {
     color:var(--text-color);
@@ -345,8 +364,15 @@ line-height: 1.25;
 }
 /* Секція форми */
 .forms {
-    background-color: var(--form-background);
+    padding-top: 132px;
+    padding-bottom: 121px;
 }
+
+.forms-wrap {
+    background-color: var(--form-background);
+    display: flex;
+}
+
 .forms-title {
     color: var(--accent-color);
 /* text-align: center; */
@@ -354,15 +380,22 @@ font-family: "Playfair Display", serif;
 font-size: 36px;
 font-weight: 600;
 line-height: 1.33;
+margin-bottom: 140px;
 }
 
+.form {
+padding: 36px 64px 86px 55px;
+}
 
 .forms-text {
     color: var(--additional-accent);
 font-size: 32px;
 font-weight: 400;
 line-height: 1.25;
+width: 347px;
+margin-bottom: 40px;
 }
+
 
 .form-icon {
     width: 28px;
@@ -385,6 +418,7 @@ line-height: 1.25;
 font-size: 20px;
 font-weight: 700;
 line-height: 1.25;
+display: block;
 }
 
 .form-button {
