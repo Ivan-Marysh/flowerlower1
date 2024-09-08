@@ -183,13 +183,16 @@ text-align: start;
 
 .catalog-title {
     color: var(--text-color);
-
 text-align: center;
 font-family: "Playfair Display", serif;
 font-size: 36px;
 font-weight: 600;
 line-height: 1.33;
 margin-bottom: 20px;
+
+
+
+
 }
 
 .catalog-list {
