@@ -371,6 +371,7 @@ line-height: 1.25;
 .forms-wrap {
     background-color: var(--form-background);
     display: flex;
+    gap: 242px;
 }
 
 .forms-title {
@@ -396,12 +397,35 @@ width: 347px;
 margin-bottom: 40px;
 }
 
+.forms-link {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #6F6567;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms-link:hover,
+.forms-link:focus {
+    background-color: aqua;
+    border: none;
+    outline: 1px solid #e1ff00;
+    .form-icon {
+        fill: red;
+    }
+}
 
 .form-icon {
     width: 28px;
 height: 28px;
 flex-shrink: 0;
 fill: #6F6567;
+}
+
+.form-icon:hover {
+    fill: #822740;
 }
 
 
@@ -419,6 +443,11 @@ font-size: 20px;
 font-weight: 700;
 line-height: 1.25;
 display: block;
+width: 416px;
+height: 70px;
+border-radius: 15px;
+border: none;
+padding-left: 38px;
 }
 
 .form-button {
@@ -426,6 +455,14 @@ display: block;
 font-size: 24px;
 font-weight: 400;
 line-height: 1.25;
+/* padding: 16px, 116px; */
+width: 416px;
+height: 62px;
+border-radius: 15px;
+box-shadow: 142px 0px 40px 0px rgba(0, 0, 0, 0.00), 91px 0px 36px 0px rgba(0, 0, 0, 0.01), 51px 0px 31px 0px rgba(0, 0, 0, 0.05), 23px 0px 23px 0px rgba(0, 0, 0, 0.09), 6px 0px 12px 0px rgba(0, 0, 0, 0.10), 0px 0px 0px 0px rgba(0, 0, 0, 0.10);
+background-color: #A93B59;
+border: none;
+margin-top: 40px;
 }
 
 .forms-caption {
@@ -434,7 +471,22 @@ line-height: 1.25;
 font-size: 32px;
 font-weight: 400;
 line-height: 1.25;
+margin-bottom: 39px;
+margin-top: 40px;
 }
+
+.forms-list {
+ display: flex;
+ flex-direction: column;
+ gap: 28px;
+}
+
+.forms-item {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
 .form-check {
     width: 48px;
     height: 48px;
@@ -442,6 +494,7 @@ line-height: 1.25;
 }
 
 .forms-desk {
+    width: 389px;
     color: rgba(255, 255, 255, 0.71);
 font-size: 20px;
 font-weight: 400;
@@ -457,13 +510,35 @@ line-height: 1.25;
 
 /* секція клієнти */
 
+.inviseters {
+    padding-top: 121px;
+    padding-bottom: 127px;
+}
+
 .inviseters-title {
     color: var(--accent-color);
 font-family: "Playfair Display", serif;
 font-size: 36px;
 font-weight: 600;
 line-height: 1.33;
+text-align: end;
+margin-bottom: 140px;
+}
 
+.inviseters-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-icon {
+    fill: #B02E51;
+    width: 69px;
+    height: 74px;
 }
 
 /* футер */
