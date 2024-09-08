@@ -599,7 +599,9 @@ text-transform: uppercase;
     gap: 24px;
 }
 
-.address
+.address{
+    
+}
 
 .address-item{
     text-align: center;
