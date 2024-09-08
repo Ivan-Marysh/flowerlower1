@@ -597,11 +597,12 @@ text-transform: uppercase;
     display: flex;
     flex-direction: column;
     gap: 24px;
+    list-style: none;
 }
 
-.address{
-    
-}
+
+
+
 
 .address-item{
     text-align: center;
